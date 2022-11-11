@@ -19,6 +19,6 @@ public class Camara : MonoBehaviour
     {
         _dir = new Vector3 (Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
-        _myTransform.Translate = Time.deltaTime * speed * _dir;
+        //_myTransform.Translate = Time.deltaTime * speed * _dir;
     }
 }
