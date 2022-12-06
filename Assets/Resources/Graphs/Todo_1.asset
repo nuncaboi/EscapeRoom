@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: Todo_1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: c1519f27-67c0-46c4-a437-03c879a7c6dd
+    PortName: Next
+    TargetNodeGuid: 309b3104-b5ad-446f-97fa-bff553b813be
+  - BaseNodeGuid: 309b3104-b5ad-446f-97fa-bff553b813be
+    PortName: Next Dialog
+    TargetNodeGuid: 3110265a-e3e9-49f3-8e5e-795b3a0fd512
+  - BaseNodeGuid: 3110265a-e3e9-49f3-8e5e-795b3a0fd512
+    PortName: Next Dialog
+    TargetNodeGuid: a16ba51a-211c-463b-a2a1-5d94ac86413d
+  DialogNodes:
+  - Guid: ab539141-8c1d-497e-a3e5-2374824c2c9b
+    Content:
+      characterID: 8a426ecd-b324-4ffc-8c55-78e015465973
+      emotion: 0
+      DialogText: New Dialog
+    Position: {x: 277, y: 238}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 3110265a-e3e9-49f3-8e5e-795b3a0fd512
+    Content:
+      characterID: 11cb6f05-c2e4-4cbb-8899-99fcbf330c6f
+      emotion: 0
+      DialogText: Buenos dias, soy TODO
+    Position: {x: 505, y: 120}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: a16ba51a-211c-463b-a2a1-5d94ac86413d
+    Content:
+      characterID: 981814e7-4f49-4765-bf6c-9e1e589a059e
+      emotion: 0
+      DialogText: ...
+    Position: {x: 809.5, y: 120}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 309b3104-b5ad-446f-97fa-bff553b813be
+    Content:
+      characterID: 981814e7-4f49-4765-bf6c-9e1e589a059e
+      emotion: 0
+      DialogText: ...
+    Position: {x: 222, y: 120}
+    Type: 1
+    Choices:
+    - Next Dialog
